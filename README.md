@@ -209,6 +209,7 @@ Data Preprocessing before Feature Selection:
 ![image](https://user-images.githubusercontent.com/121285701/234180098-8f62791d-1eb3-432d-a15b-d3dc3d39ac5b.png)
 ## Data checking and cleaning:
 ![image](https://user-images.githubusercontent.com/121285701/234180170-e005bc5e-51f5-4f38-a22d-3285b8e662a3.png)
+
 ![image](https://user-images.githubusercontent.com/121285701/234180201-dba4b448-e362-47fc-b0a6-db7ae6b854b0.png)
 ## Outlier Removal
 ![image](https://user-images.githubusercontent.com/121285701/234180345-431ac010-0185-44e9-8614-8d523fd55bfd.png)
@@ -225,4 +226,29 @@ Data Preprocessing before Feature Selection:
 
 The filtering here is done using correlation matrix and it is most commonly done using Pearson correlation. 
 ![image](https://user-images.githubusercontent.com/121285701/234180561-cf503486-a4b2-4503-aa51-25b7335ef3e2.png)
+### Highly correlated features with the Output variable
+![image](https://user-images.githubusercontent.com/121285701/234180964-41d65ce7-88df-477e-8593-d1e16d478d61.png)
+## Wrapper Method:
 
+Wrapper Method is an iterative and computationally expensive process but it is more accurate than the filter method.
+
+There are different wrapper methods such as Backward Elimination, Forward Selection, Bidirectional Elimination and RFE.
+## Backward Elimination:
+![image](https://user-images.githubusercontent.com/121285701/234181077-649ddf00-de73-463b-807d-3875a7fd7083.png)
+
+![image](https://user-images.githubusercontent.com/121285701/234181108-3df44e75-b07f-4103-9bbc-a7895a3eba6a.png)
+## RFE (Recursive Feature Elimination):
+![image](https://user-images.githubusercontent.com/121285701/234181244-7b63c6d4-c659-4109-aab6-596f9695a7ff.png)
+## Optimum number of features that have high accuracy:
+![image](https://user-images.githubusercontent.com/121285701/234181313-49b64c05-52d6-4208-84dd-408509203b53.png)
+### Final set of feature:
+![image](https://user-images.githubusercontent.com/121285701/234181362-33bf7f6b-584b-45c9-b78d-adc5b7140480.png)
+
+## Embedded Method:
+
+Embedded methods are iterative in a sense that takes care of each iteration of the model training process and carefully extract those features which contribute the most to the training for a particular iteration. Regularization methods are the most commonly used embedded methods which penalize a feature given a coefficient threshold. 
+![image](https://user-images.githubusercontent.com/121285701/234181405-29fe4b22-001c-4ed5-a4a3-858cabb77027.png)
+
+## RESULT:
+
+Thus, the various feature selection techniques have been performed on a given dataset successfully.
