@@ -52,7 +52,7 @@ df_new.to_csv('titanic_transformed.csv', index=False)
 print(df_new)
 
 ```
-##OUTPUT:
+## OUTPUT:
 https://user-images.githubusercontent.com/120380280/241127198-dbf20cf1-16f2-4f79-9d7b-9349581ef4e5.png
 https://user-images.githubusercontent.com/120380280/241127216-77356d38-2696-49e2-9b8f-34510a1ec266.png
 https://user-images.githubusercontent.com/120380280/241127289-34d7dbbd-cb00-41ba-8d20-5ed42a572993.png
@@ -100,10 +100,10 @@ df_new = pd.concat([X_train[selected_features], y_train], axis=1)
 df_new.to_csv('CarPrice_new.csv', index=False)
 print(df_new)
 
-##OUTPUT:
+## OUTPUT:
 https://user-images.githubusercontent.com/120380280/241127584-0a9a1ce6-0736-404f-bf57-4fd336c54602.png
 https://user-images.githubusercontent.com/120380280/241127598-260feae3-c96d-4912-8cfd-166f109265a5.png
 https://user-images.githubusercontent.com/120380280/241127626-bc3cf254-39ed-4806-a549-79e921853ebd.png
 
-##RESULT:
+## RESULT:
     Hence various feature selection techniques are applied to the given data set successfully and saved the data into a file.
