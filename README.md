@@ -53,9 +53,7 @@ print(df_new)
 
 ```
 ## OUTPUT:
-https://user-images.githubusercontent.com/120380280/241127198-dbf20cf1-16f2-4f79-9d7b-9349581ef4e5.png
-https://user-images.githubusercontent.com/120380280/241127216-77356d38-2696-49e2-9b8f-34510a1ec266.png
-https://user-images.githubusercontent.com/120380280/241127289-34d7dbbd-cb00-41ba-8d20-5ed42a572993.png
+![image](https://github.com/haritha-venkat/Ex-07-Feature-Selection/assets/121285701/0f0485ff-c873-4dea-bb7f-573403baaa95)
 
 ## CODE-Done for "CarPrice.csv"
 ```python
