@@ -54,6 +54,8 @@ print(df_new)
 ```
 ## OUTPUT:
 ![image](https://github.com/haritha-venkat/Ex-07-Feature-Selection/assets/121285701/0f0485ff-c873-4dea-bb7f-573403baaa95)
+![image](https://github.com/haritha-venkat/Ex-07-Feature-Selection/assets/121285701/6cda61e7-b3fa-42c2-9ccc-36e7ca7c9261)
+![image](https://github.com/haritha-venkat/Ex-07-Feature-Selection/assets/121285701/78c656f1-ea8e-4eea-84b1-9cedf7852b53)
 
 ## CODE-Done for "CarPrice.csv"
 ```python
@@ -102,9 +104,10 @@ df_new.to_csv('CarPrice_new.csv', index=False)
 print(df_new)
 ```
 ## OUTPUT:
-https://user-images.githubusercontent.com/120380280/241127584-0a9a1ce6-0736-404f-bf57-4fd336c54602.png
-https://user-images.githubusercontent.com/120380280/241127598-260feae3-c96d-4912-8cfd-166f109265a5.png
-https://user-images.githubusercontent.com/120380280/241127626-bc3cf254-39ed-4806-a549-79e921853ebd.png
+![image](https://github.com/haritha-venkat/Ex-07-Feature-Selection/assets/121285701/ead281b8-2501-429e-8661-7b43d1bcb276)
+![image](https://github.com/haritha-venkat/Ex-07-Feature-Selection/assets/121285701/f0f9c162-4ff3-406f-818e-c2c4b3e81024)
+![image](https://github.com/haritha-venkat/Ex-07-Feature-Selection/assets/121285701/e0a3a4a3-a18c-438b-826b-c1f52788ff0f)
+
 
 ## RESULT:
     Hence various feature selection techniques are applied to the given data set successfully and saved the data into a file.
