@@ -58,6 +58,9 @@ https://user-images.githubusercontent.com/120380280/241127216-77356d38-2696-49e2
 https://user-images.githubusercontent.com/120380280/241127289-34d7dbbd-cb00-41ba-8d20-5ed42a572993.png
 
 ## CODE-Done for "CarPrice.csv"
+```python
+Developed By: HARITHASHREE.V
+Reg.No: 212222230046
 
 import pandas as pd
 import numpy as np
@@ -99,7 +102,7 @@ selected_features = X_train.columns[indices][:10]
 df_new = pd.concat([X_train[selected_features], y_train], axis=1)
 df_new.to_csv('CarPrice_new.csv', index=False)
 print(df_new)
-
+```
 ## OUTPUT:
 https://user-images.githubusercontent.com/120380280/241127584-0a9a1ce6-0736-404f-bf57-4fd336c54602.png
 https://user-images.githubusercontent.com/120380280/241127598-260feae3-c96d-4912-8cfd-166f109265a5.png
